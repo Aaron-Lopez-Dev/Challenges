@@ -1,0 +1,14 @@
+let input = "hello";
+
+
+function pigLatin(input) {
+    let firstLetter = input.slice(0, 1);     /* h */
+    let remainder = input.slice(1, 100);      /* ello */
+    let ending = "ay";
+    let newString = remainder + firstLetter + ending;
+
+    console.log(newString);
+
+}
+
+pigLatin(input);
