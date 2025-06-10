@@ -1,3 +1,17 @@
+/* Here is your challenge: Write a function which accepts a string representing an English word, phrase, or sentence, and return a string representing the value converted to Pig Latin. 
+
+Test cases:
+With hello, return ellohay
+With hello world, return ellohay orldway
+With Hello World, return Ellohay Orldway
+With Pizza? Yes Please!!, return Izzapay? Esyay Easeplay!!
+With Hello everyone. Welcome to the code kata., return Ellohay everyoneway. Elcomeway otay ethay odecay atakay.
+With Algorithm, return Algorithmway
+With How are you?, return Owhay areway ouyay?
+With This is a much longer sentence that needs to be translated. You should be able to translate this whole thing. Wow this is a long sentence., return Isthay isway away uchmay ongerlay entencesay atthay eedsnay otay ebay anslatedtray. Ouyay ouldshay ebay ableway otay anslatetray isthay olewhay ingthay. Owway isthay isway away onglay entencesay.
+With cnsnts, return cnsntsay */
+
+
 let input = "hello";
 
 
